@@ -1,16 +1,60 @@
-# wordle
+<br />
+<p align="center">
+   <a href="https://github.com/BerkayOzturkCE/FlutterWordle">
+    <img src="https://github.com/BerkayOzturkCE/FlutterWordle/blob/main/screenshots/favicon.png" alt="Logo" width="400">
+  </a>
 
-A new Flutter project.
+  <h3 align="center">Flutter Wordle</h3>
 
-## Getting Started
+  <p align="center">
+    <br />
+    <a href="https://github.com/BerkayOzturkCE/FlutterWordle">Download</a>
+    ·
+    <a href="https://github.com/BerkayOzturkCE/FlutterWordle/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/BerkayOzturkCE/FlutterWordle/issues">Request Feature</a>
+  </p>
+</p>
 
-This project is a starting point for a Flutter application.
+## 🚀 Try It
+[Wordles](https://wordles.tk/#/)
 
-A few resources to get you started if this is your first Flutter project:
+## About The Project
+Word prediction web application. The meaning of the guessed word is taken with an api of TDK.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+### Built With
+
+* [Flutter](https://flutter.dev/)
+* [Visual Studio Code](https://visualstudio.microsoft.com/tr/)
+
+## 📝 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## 📌 Contact
+
+<a>
+
+<a href="https://www.linkedin.com/in/broztrk/" target="blank"><img align="center" src="https://github.com/BerkayOzturkCE/BerkayOzturkCE/blob/main/linkedin.png" 
+alt="donpablonow" height="40" width="40" /></a>
+<a href="https://www.instagram.com/brky_oztrk/" target="blank"><img align="center" src="https://github.com/BerkayOzturkCE/BerkayOzturkCE/blob/main/instagram.png" alt="donpablonow" height="40" width="40" /></a>
+<a href="https://twitter.com/BerkayOzturkCE" target="blank"><img align="center" src="https://github.com/BerkayOzturkCE/BerkayOzturkCE/blob/main/twitter.png" alt="donpablonow" height="40" width="40" /></a>
+<a href="mailto:berkayozturkce@gmail.com" target="blank"><img align="center" src="https://github.com/BerkayOzturkCE/BerkayOzturkCE/blob/main/icons8-gmail-480.svg" height="40" width="40" /></a>
+
+</a>
+
+
+
+## Screenshots
+
+Mobile               
+:-------------------------:
+![](https://github.com/BerkayOzturkCE/FlutterWordle/blob/main/screenshots/Iphone.png?raw=true)|
+
+Web               
+:-------------------------:
+![](https://github.com/BerkayOzturkCE/FlutterWordle/blob/main/screenshots/Laptop.png?raw=true)|
+
+
