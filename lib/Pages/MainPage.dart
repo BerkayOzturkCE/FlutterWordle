@@ -10,7 +10,6 @@ import 'package:wordle/Data/Data.dart';
 import 'package:wordle/Data/Harf.dart';
 import 'package:wordle/Data/KelimeModel.dart';
 import 'package:wordle/Pages/HowToPlay.dart';
-import 'package:wordle/Pages/Setting.dart';
 import 'package:wordle/Widgets/AlertDialog.dart';
 import 'package:wordle/Widgets/ToastWidget.dart';
 
@@ -151,6 +150,18 @@ class _MainPageState extends State<MainPage> {
         centerTitle: true,
         backgroundColor: Color.fromARGB(255, 23, 24, 31),
         actions: [
+          Switch(
+            value: hardMode!,
+            onChanged: (value) {
+              setState(() {
+                hardMode = !hardMode!;
+              });
+            },
+            activeTrackColor: Colors.green,
+            activeColor: Colors.white,
+            inactiveTrackColor: Colors.grey,
+            inactiveThumbColor: Colors.white,
+          ),
           IconButton(
               onPressed: () {
                 Navigator.pushReplacement(
@@ -168,12 +179,6 @@ class _MainPageState extends State<MainPage> {
                     .push(MaterialPageRoute(builder: (context) => HowToPlay()));
               },
               icon: Icon(Icons.info_outline)),
-          IconButton(
-              onPressed: () {
-                Navigator.of(context)
-                    .push(MaterialPageRoute(builder: (context) => Settings()));
-              },
-              icon: Icon(Icons.settings)),
         ],
       ),
       body: Center(

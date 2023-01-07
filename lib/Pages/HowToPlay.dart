@@ -13,8 +13,9 @@ class _HowToPlayState extends State<HowToPlay> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color.fromARGB(255, 27, 29, 36),
       appBar: AppBar(
-        backgroundColor: Color.fromARGB(50, 255, 255, 255),
+        backgroundColor: Color.fromARGB(255, 23, 24, 31),
         elevation: 0,
         automaticallyImplyLeading: false,
         actions: [
@@ -22,7 +23,7 @@ class _HowToPlayState extends State<HowToPlay> {
               onPressed: () => Navigator.pop(context),
               icon: Icon(
                 Icons.close,
-                color: Colors.black,
+                color: Colors.white,
               ))
         ],
       ),
@@ -42,7 +43,9 @@ class _HowToPlayState extends State<HowToPlay> {
                 width: double.infinity,
                 child: Text("NASIL OYNANIR ?",
                     style: GoogleFonts.mulish(
-                        fontSize: 32, fontWeight: FontWeight.w700)),
+                        fontSize: 32,
+                        fontWeight: FontWeight.w700,
+                        color: Colors.white)),
               ),
               SizedBox(
                 height: 20,
@@ -53,7 +56,9 @@ class _HowToPlayState extends State<HowToPlay> {
                   "Her tahminden sonra, karelerin rengi, tahmininizin kelimeye ne kadar "
                   "yakın olduğuna göre değişecektir",
                   style: GoogleFonts.mulish(
-                      fontSize: 15, fontWeight: FontWeight.w600)),
+                      fontSize: 15,
+                      fontWeight: FontWeight.w600,
+                      color: Colors.white)),
               SizedBox(
                 height: 20,
               ),
@@ -81,7 +86,9 @@ class _HowToPlayState extends State<HowToPlay> {
                   Flexible(
                     child: Text("A harfi kelimede bulunmuyor.",
                         style: GoogleFonts.mulish(
-                            fontSize: 15, fontWeight: FontWeight.w600)),
+                            fontSize: 15,
+                            fontWeight: FontWeight.w600,
+                            color: Colors.white)),
                   ),
                 ],
               ),
@@ -102,7 +109,9 @@ class _HowToPlayState extends State<HowToPlay> {
                       child: Text(
                         "A",
                         style: GoogleFonts.mulish(
-                            fontSize: 26, fontWeight: FontWeight.w600),
+                          fontSize: 26,
+                          fontWeight: FontWeight.w600,
+                        ),
                       ),
                     ),
                   ),
@@ -113,7 +122,9 @@ class _HowToPlayState extends State<HowToPlay> {
                       child: Text(
                           "A harfi kelimede bulunuyor ama yeri doğru değil.",
                           style: GoogleFonts.mulish(
-                              fontSize: 15, fontWeight: FontWeight.w600))),
+                              fontSize: 15,
+                              fontWeight: FontWeight.w600,
+                              color: Colors.white))),
                 ],
               ),
               SizedBox(
@@ -143,7 +154,9 @@ class _HowToPlayState extends State<HowToPlay> {
                   Flexible(
                       child: Text("A harfi kelimede var ve yeri doğru.",
                           style: GoogleFonts.mulish(
-                              fontSize: 15, fontWeight: FontWeight.w600))),
+                              fontSize: 15,
+                              fontWeight: FontWeight.w600,
+                              color: Colors.white))),
                 ],
               ),
             ],
